@@ -1,0 +1,134 @@
+# 🧩 Proxy Server Types
+
+This document explains the main types of Proxy Servers and their core functions.
+
+---
+
+## 🔹 1. Forward Proxy
+Acts as a middleman between a client and the internet.  
+It hides the client’s IP address and can cache data, filter content, and monitor traffic.
+
+**Use Cases:**
+- Anonymity and privacy
+- Content filtering in companies
+- Internet access control
+
+---
+
+## 🔹 2. Reverse Proxy
+Placed in front of servers to handle client requests before they reach the backend servers.  
+It can distribute load, protect servers, and improve performance.
+
+**Use Cases:**
+- Load balancing
+- Hiding internal servers
+- Web Application Firewall (WAF)
+
+---
+
+## 🔹 3. Transparent Proxy
+Does not modify requests or hide IP addresses.  
+Clients often don’t know they are behind a proxy.
+
+**Use Cases:**
+- Network monitoring
+- Content control in public or corporate networks
+
+---
+
+## 🔹 4. Anonymous Proxy
+Hides the client’s IP but reveals that it is a proxy.
+
+**Use Cases:**
+- Moderate privacy protection
+
+---
+
+## 🔹 5. High Anonymity (Elite) Proxy
+Completely hides the client’s IP and does not reveal that it’s a proxy.
+
+**Use Cases:**
+- Maximum privacy and anonymity
+
+---
+
+## 🧠 Comparison Table
+
+| Type | Hides IP | Reveals Proxy | Common Use |
+|------|-----------|---------------|-------------|# 🧩 Proxy Server Types
+
+This document explains the main types of Proxy Servers and their core functions.
+
+---
+
+## 🔹 1. Forward Proxy
+Acts as a middleman between a client and the internet.  
+It hides the client’s IP address and can cache data, filter content, and monitor traffic.
+
+**Use Cases:**
+- Anonymity and privacy
+- Content filtering in companies
+- Internet access control
+
+---
+
+## 🔹 2. Reverse Proxy
+Placed in front of servers to handle client requests before they reach the backend servers.  
+It can distribute load, protect servers, and improve performance.
+
+**Use Cases:**
+- Load balancing
+- Hiding internal servers
+- Web Application Firewall (WAF)
+
+---
+
+## 🔹 3. Transparent Proxy
+Does not modify requests or hide IP addresses.  
+Clients often don’t know they are behind a proxy.
+
+**Use Cases:**
+- Network monitoring
+- Content control in public or corporate networks
+
+---
+
+## 🔹 4. Anonymous Proxy
+Hides the client’s IP but reveals that it is a proxy.
+
+**Use Cases:**
+- Moderate privacy protection
+
+---
+
+## 🔹 5. High Anonymity (Elite) Proxy
+Completely hides the client’s IP and does not reveal that it’s a proxy.
+
+**Use Cases:**
+- Maximum privacy and anonymity
+
+---
+
+## 🧠 Comparison Table
+
+| Type | Hides IP | Reveals Proxy | Common Use |
+|------|-----------|---------------|-------------|
+| Forward Proxy | ✅ | ❌ | Anonymity & control |
+| Reverse Proxy | ❌ | ❌ | Server protection |
+| Transparent Proxy | ❌ | ✅ | Monitoring |
+| Anonymous Proxy | ✅ | ✅ | Moderate privacy |
+| High Anonymity Proxy | ✅ | ❌ | Strong privacy |
+
+---
+
+## 🛠️ Author
+Created by [omran-sec ]  
+Security Student | Networking & Web Pentesting Enthusiast
+| Forward Proxy | ✅ | ❌ | Anonymity & control |
+| Reverse Proxy | ❌ | ❌ | Server protection |
+| Transparent Proxy | ❌ | ✅ | Monitoring |
+| Anonymous Proxy | ✅ | ✅ | Moderate privacy |
+| High Anonymity Proxy | ✅ | ❌ | Strong privacy |
+
+---
+Security Student | Networking & Web Pentesting Enthusiast
