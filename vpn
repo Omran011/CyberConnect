@@ -1,0 +1,72 @@
+# What is a VPN
+
+A VPN (Virtual Private Network) is a technology used to create a secure and encrypted connection between your device and the internet. Think of it as a private tunnel for your data, preventing others from spying on your online activities.
+
+---
+
+## Benefits
+
+* Hides your real IP address.
+* Encrypts data during transmission.
+* Bypasses geo-restrictions.
+* Protects your privacy on public Wi-Fi networks.
+
+---
+
+## How It Works
+
+1. Your device establishes an encrypted connection with a VPN server.
+2. All your internet traffic is routed through this server.
+3. Websites and services see the server's IP instead of your real one.
+
+---
+
+## Common Protocols
+
+* OpenVPN
+* WireGuard
+* IKEv2/IPSec
+
+---
+
+## Example: Simple WireGuard Configuration
+
+[Interface]
+PrivateKey = <client_private_key>
+Address = 10.0.0.2/24
+DNS = 1.1.1.1
+
+[Peer]
+PublicKey = <server_public_key>
+AllowedIPs = 0.0.0.0/0, ::/0
+Endpoint = vpn.example.com:51820
+PersistentKeepalive = 25
+
+---
+
+## Bash Script to Generate WireGuard Keys
+
+#!/usr/bin/env bash
+set -e
+
+OUT_DIR="wireguard-keys"
+mkdir -p "$OUT_DIR"
+
+wg genkey | tee "$OUT_DIR/privatekey" | wg pubkey > "$OUT_DIR/publickey"
+
+echo "Keys have been generated in: $OUT_DIR"
+cat "$OUT_DIR/publickey"
+
+---
+
+## Security Tips
+
+* Never share your private keys.
+* Use trusted VPN servers.
+* Keep your VPN software up to date.
+
+---
+
+## License
+
+You can use the MIT license or any other open-source license.
